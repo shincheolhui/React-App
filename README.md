@@ -8,8 +8,6 @@
 
 <h2>Stack & Tool</h2>
 
-<h1>사용기술</h1>
-
 📚 Frameworks, Platforms and Libraries<br>
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
