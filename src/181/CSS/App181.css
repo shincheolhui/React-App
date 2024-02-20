@@ -1,0 +1,11 @@
+.container {
+  height: 400px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.sub_container {
+  height: 150px;
+  border: 2px solid burlywood;
+  margin: 10px 0;
+}

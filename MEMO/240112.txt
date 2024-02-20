@@ -1,0 +1,31 @@
+* 폴더의 구조
+
+/node_modules 폴더
+    라이브러리 코드(모듈 = 파일)들
+    필요 패키지(라이브러리) 설치해도 여기에 설치된다.
+    (이 안에 코드는 직접 건드리지 말자!)
+
+/public 폴더
+    정적 파일들 (이미지, 아이콘 등..)
+
+/src 폴더
+    sourse 코드(js,css, ...)
+
+package.json 파일
+    프로젝트 설정 파일
+    "scripts": {
+        "start": "react-scripts start", <- 터미널에서 npm start 를 입력하면 이게 실행됨.
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    }
+
+    "react-scripts start" 는 ./src/index.js 를 실행함.
+
+    index.js 에서 ./App.js 의 App()를 import (예: import App from './App';)
+
+    App() 의 실행 결과를 렌더링 <App/>
+
+    어디에 렌더링 하게 될까?  
+    document.getElementById('root') <- 바로 여기!  ./public/index.html 
+     <div id="root"></div> <- 여기에 App() 리턴 결과를 렌더링 한다
